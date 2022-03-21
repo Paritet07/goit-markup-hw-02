@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  color: #212121;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.header-top {
+  padding: 32px 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.logo {
+  margin-right: 93px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000;
+  text-decoration: none;
+}
+.logo span {
+  color: #2196f3;
+}
+.header__menu {
+  margin-right: 285px;
+}
+.header__items {
+  display: flex;
+  justify-content: space-between;
+}
+.header__item {
+  list-style: none;
+}
+.header__item + .header__item {
+  margin-left: 50px;
+}
+.header__link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header__link:hover {
+  color: #2196f3;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.header__contacs {
+  ist-style: none;
+}
+.header__mail {
+  margin-right: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+.header__tel {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.header__inner {
+  background: #2f303a;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.header__inner-content {
+  padding: 200px 0;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.header__inner-titel {
+  width: 696px;
+  margin: 0 auto 30px;
+  font-weight: 900;
+  font-size: 44px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.header__inner-button {
+  cursor: pointer;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.header__inner-block {
+  padding: 94px 0;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.header__inner-contents {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.header__inner-content--block {
+  min-width: 270px;
+}
+.eader__inner-content--titel {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.header__inner-content--text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.personal__titel {
+  margin-bottom: 50px;
+}
+.affai__content {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin-bottom: 94px;
+}
+.personal {
+  max-width: 1600px;
+  margin: 0 auto;
+  background: #f5f4fa;
+}
+.personal__titel {
+  padding: 94px 0 50px;
+}
+.personal__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 94px;
+}
+
+.personal__content-blok {
+  max-width: 270px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.personal__img {
+  width: 270px;
+  height: 260px;
+  object-fit: cover;
+}
+.personal__name {
+  margin: 30px 0 10px;
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.personal__pozicion {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.footer {
+  max-width: 1600px;
+  margin: 0 auto;
+  background: #2f303a;
+}
+
+.footer__content {
+  margin: 0;
+  list-style: none;
+  padding: 60px 0;
+}
+.footer__content li:not(:last-child) {
+  margin-bottom: 9px;
+}
+.logo__footer {
+  padding-bottom: 20px;
+}
+.footer__content--address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer__content--mail,
+.footer__content--tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
